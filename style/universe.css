@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 400px) {
+  main {
+    padding: 2rem;
+    width: fit-content;
+  }
+
+  main p {
+    font-size: 1.6rem;
+  }
+}

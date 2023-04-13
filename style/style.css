@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.6rem;
+
+  background: url(/images/universe.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  gap: 2.4rem;
+  padding: 2rem;
+
+  color: white;
+}
+
+.logo {
+  padding: .5rem;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.logo img {
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+
+  font-size: 1.8rem;
+
+  text-decoration: none;
+  color: white;
+
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  height: 60vh;
+  display: grid;
+  place-content: center;
+  gap: 2.4rem;
+
+  text-align: center;
+
+  max-width: 80rem;
+  margin: auto;
+
+  color: white;
+}
+
+main h1 {
+  font-size: 5.0rem;
+}
+
+main button {
+  margin: auto;
+  width: 20rem;
+  padding: 1rem;
+
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+
+  cursor: pointer;
+  border-radius: 1rem;
+
+  transition: all .5s;
+}
+
+main button:hover {
+  background: rgba(151, 151, 151, 0.475);
+}
