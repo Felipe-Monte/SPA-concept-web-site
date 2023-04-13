@@ -18,7 +18,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.6rem;
 
-  background: url(/images/universe.jpg) no-repeat;
+  background: url(../images/universe.jpg) no-repeat;
   background-position: center;
   background-size: cover;
 }
